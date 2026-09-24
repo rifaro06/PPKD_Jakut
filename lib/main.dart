@@ -2,8 +2,8 @@ import 'dart:io'; // Tambahkan import ini untuk cek Platform
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'package:tugas/tugas_14/views/got_screen.dart';
 
-import 'tugas_12/tugas_12.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         ),
         useMaterial3: true,
       ),
-      home: const Tugas12Page(),
+      home: const GotScreen(),
     );
   }
 }
