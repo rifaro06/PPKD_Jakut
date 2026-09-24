@@ -2,6 +2,7 @@
 //
 //     final postModels = postModelsFromJson(jsonString);
 
+// ignore: depend_on_referenced_packages
 import 'package:json_annotation/json_annotation.dart';
 import 'dart:convert';
 
